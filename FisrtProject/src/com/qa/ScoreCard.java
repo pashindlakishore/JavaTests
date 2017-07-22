@@ -1,15 +1,15 @@
 package com.qa;
 
 public class ScoreCard {
-	int [] scores = {10,20,30};
+	int [] scores = {1,3,10,20,30,300};
 	
 	public void displayScore()
 	{
 		System.out.println("Data ");
-		for(int i = 0; i<scores.length; i++)
+		for(int i : scores)
 		{
 		    
-		    System.out.println("Item "+scores[i]);
+		    System.out.println("Next Item "+ i);
 		}
 	}
 
