@@ -5,7 +5,10 @@ public class ScoreCard {
 	
 	public void displayScore()
 	{
-		System.out.println("TODO stuff");
+		for(int i = 0; i<scores.length; i++)
+		{
+		    System.out.println("");
+		}
 	}
 
 }
