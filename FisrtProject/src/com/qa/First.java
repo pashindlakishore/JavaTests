@@ -4,12 +4,19 @@ public class First {
 
 	public static void main(String[] args) {
 		
-		
-		// TODO Auto-generated method stub
+		ScoreCard sc = new ScoreCard();
 
-		System.out.println("Welcome!");
+		sayHello();
+		sc.displayScore();
+		
+		
+	}
+
+	public static void sayHello()
+	{
+		
+		System.out.println("Hello ");
 		
 		System.out.println("Test 2");
 	}
-
 }
