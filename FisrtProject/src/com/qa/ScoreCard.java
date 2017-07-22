@@ -5,9 +5,11 @@ public class ScoreCard {
 	
 	public void displayScore()
 	{
+		System.out.println("Data ");
 		for(int i = 0; i<scores.length; i++)
 		{
-		    System.out.println("");
+		    
+		    System.out.println("Item "+scores[i]);
 		}
 	}
 
